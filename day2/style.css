@@ -1,0 +1,99 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+  background: #3FAF82;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.um {
+    height: 8px;
+    width: 87px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    bottom: 205px;
+    box-shadow: 0px 0px 0px black;
+    animation-duration: 2s;
+    animation-name: encolhe;
+}
+
+.dois {
+    height: 8px;
+    width: 87px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    bottom: 180px;
+    box-shadow: 0px 0px 70px black;
+    animation-duration: 2s;
+    animation-name: sobe;
+    /* animation-timing-function: ease-in-out; */
+}
+
+.tres {
+    height: 8px;
+    width: 87px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    bottom: 230px;
+    box-shadow: 0px 0px 70px black;
+    animation-duration: 2s;
+    animation-name: desce;
+}
+
+@keyframes sobe {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: rotate(0) translateY(-26px);
+    }
+
+    100% {
+        transform: rotate(120deg) translateX(-25px);
+    }
+}
+
+
+@keyframes desce {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: rotate(0) translateY(26px);
+    }
+
+    100% {
+        transform: rotate(70deg) translateX(40px);
+    }
+}
+
+@keyframes encolhe {
+    0% {
+        transform: scale(-1, -1);
+    }
+
+    100% {
+        transform: scale(0, 0);
+    }
+}
