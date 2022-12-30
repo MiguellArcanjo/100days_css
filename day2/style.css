@@ -19,6 +19,10 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.um-dois-tres {
+    cursor: pointer;
+}
+
 .um {
     height: 8px;
     width: 87px;
@@ -28,8 +32,6 @@
     left: 150px;
     bottom: 205px;
     box-shadow: 0px 0px 0px black;
-    animation-duration: 2s;
-    animation-name: encolhe;
 }
 
 .dois {
@@ -39,10 +41,9 @@
     border-radius: 20px;
     position: absolute;
     left: 150px;
-    bottom: 180px;
+    bottom: 187px;
     box-shadow: 0px 0px 70px black;
-    animation-duration: 2s;
-    animation-name: sobe;
+
     /* animation-timing-function: ease-in-out; */
 }
 
@@ -53,47 +54,86 @@
     border-radius: 20px;
     position: absolute;
     left: 150px;
-    bottom: 230px;
+    bottom: 222px;
     box-shadow: 0px 0px 70px black;
-    animation-duration: 2s;
-    animation-name: desce;
+
 }
 
-@keyframes sobe {
+.tres1-0 {
+    height: 8px;
+    width: 87px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    bottom: 205px;
+    box-shadow: 0px 0px 70px black;
+}
+
+.dir {
+    animation: dir 1s;
+}
+
+.esq {
+    animation: esq 1s;
+}
+
+.encolhe1 {
+    animation: encolhe1 1s;
+
+}
+
+.encolhe2 {
+    animation: encolhe2 1s ;
+
+}
+
+@keyframes encolhe1 {
+
     0% {
-        transform: translateY(0px);
+        transform: scale(-1, -1);
     }
 
     50% {
-        transform: rotate(0) translateY(-26px);
+        transform: scale(0, 0);
     }
 
-    100% {
-        transform: rotate(120deg) translateX(-25px);
-    }
 }
 
-
-@keyframes desce {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: rotate(0) translateY(26px);
-    }
-
-    100% {
-        transform: rotate(70deg) translateX(40px);
-    }
-}
-
-@keyframes encolhe {
+@keyframes encolhe2 {
     0% {
         transform: scale(-1, -1);
     }
 
     100% {
         transform: scale(0, 0);
+    }
+}
+
+@keyframes dir {
+    /* 0% {
+        transform: scale(-1, -1);
+    }
+
+    100% {
+        transform: scale(0, 0);
+    } */
+
+    50% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes esq {
+    /* 0% {
+        transform: scale(-1, -1);
+    }
+
+    100% {
+        transform: scale(0, 0);
+    } */
+
+    50% {
+        transform: rotate(-45deg);
     }
 }
