@@ -32,6 +32,7 @@
     left: 150px;
     bottom: 205px;
     box-shadow: 0px 0px 0px black;
+    transition: 1s;
 }
 
 .dois {
@@ -43,6 +44,7 @@
     left: 150px;
     bottom: 187px;
     box-shadow: 0px 0px 70px black;
+    transition: 1s;
 
     /* animation-timing-function: ease-in-out; */
 }
@@ -56,6 +58,7 @@
     left: 150px;
     bottom: 222px;
     box-shadow: 0px 0px 70px black;
+    transition: 1s;
 
 }
 
@@ -68,72 +71,46 @@
     left: 150px;
     bottom: 205px;
     box-shadow: 0px 0px 70px black;
+    transition: 1s;
 }
 
 .dir {
-    animation: dir 1s;
+    transform: rotate(-45deg);
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 .esq {
-    animation: esq 1s;
+    transform: rotate(45deg);
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
 .encolhe1 {
-    animation: encolhe1 1s;
-
+    animation: encolhe1 300ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .encolhe2 {
-    animation: encolhe2 1s ;
-
+    animation: encolhe2 300ms ;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
-@keyframes encolhe1 {
-
-    0% {
-        transform: scale(-1, -1);
-    }
-
-    50% {
-        transform: scale(0, 0);
-    }
-
-}
 
 @keyframes encolhe2 {
-    0% {
-        transform: scale(-1, -1);
-    }
-
     100% {
         transform: scale(0, 0);
     }
 }
-
-@keyframes dir {
-    /* 0% {
-        transform: scale(-1, -1);
-    }
-
+ 
+@keyframes encolhe1 {
     100% {
         transform: scale(0, 0);
-    } */
-
-    50% {
-        transform: rotate(45deg);
-    }
-}
-
-@keyframes esq {
-    /* 0% {
-        transform: scale(-1, -1);
-    }
-
-    100% {
-        transform: scale(0, 0);
-    } */
-
-    50% {
-        transform: rotate(-45deg);
     }
 }

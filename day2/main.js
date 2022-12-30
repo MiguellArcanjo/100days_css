@@ -20,6 +20,5 @@ const x = () => {
         encolhe1.classList.remove('encolhe1');
         encolhe2.classList.remove('encolhe2');
     }
-
 }
 
