@@ -13,7 +13,7 @@
   border-radius: 2px;
 	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
 	overflow: hidden;
-  background: black;
+  background: #272C34;
   color: #333;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -21,13 +21,135 @@
 }
 
 .bola {
-    width: 180px;
-    height: 180px;
-    background: #7DDFFC;
-    border-radius: 50pc;
-    margin: 100px;
-    margin-bottom: 30px;
-    position: absolute;
-    justify-content: center;
-    justify-items: center;
+  width: 180px;
+  height: 180px;
+  background: #7DDFFC;
+  border-radius: 50pc;
+  margin: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  overflow: hidden;
+  opacity: 0;
+  animation: dia 6s  linear infinite;
+}
+
+.chao {
+  bottom: 0px;
+  position: absolute;
+  background: #F0DE75;
+  width: 200px;
+  height: 70px;
+}
+
+.triangulo1 {
+  right: 50px;
+  position: absolute;
+  bottom: 50px;
+  width: 0;
+  height: 0;
+  border-left: 54px solid transparent;
+  border-right: 54px solid transparent;
+  border-bottom: 75px solid white;
+  transform: skewX(-10deg); 
+} 
+
+.triangulo2 {
+  right: 42px;
+  position: absolute;
+  bottom: 50px;
+  width: 0;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-bottom: 75px solid black;
+  transform: skewX(40deg); 
+}
+
+.sol {
+  position: absolute;
+  bottom: 120px;
+  right: 170px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background: yellow;
+  animation: solMovendo 6s linear infinite;
+}
+
+.sombra {
+  position: absolute;
+  width: 118px;
+  height: 150px;
+  background-color: rgba(0,0,0,0.2);
+  bottom: -80px;
+  left: 50%;
+  clip-path: polygon(100% 0,0 0, 100% 15%);
+  transform: translate(-48%);
+  animation: shadow 6s linear infinite;
+}
+
+@keyframes shadow {
+  0% {
+    clip-path: polygon(100% 0,0 0,100% 15%);
+  }
+
+  30% {
+    clip-path: polygon(100% 0,0 0,50% 5%);
+  }
+
+  100% {
+    clip-path: polygon(100% 0,0 0,0% 10%);
+  }
+}
+
+@keyframes solMovendo {
+  0% {
+    bottom: 120px;
+  }
+
+  50% {
+    right: 80px; bottom: 140px;
+  }
+
+  100%{
+    right: -25px; bottom: 110px;
+  }
+}
+
+@keyframes sombraPiramide2 {
+  0% {
+    box-shadow: 0px 0px 10px;
+  }
+}
+
+@keyframes dia {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
