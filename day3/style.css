@@ -44,7 +44,7 @@
 }
 
 .triangulo1 {
-  right: 50px;
+  right: 49px;
   position: absolute;
   bottom: 50px;
   width: 0;
@@ -53,6 +53,7 @@
   border-right: 54px solid transparent;
   border-bottom: 75px solid white;
   transform: skewX(-10deg); 
+  animation: esq 6s linear infinite;
 } 
 
 .triangulo2 {
@@ -63,8 +64,37 @@
   height: 0;
   border-left: 24px solid transparent;
   border-right: 24px solid transparent;
-  border-bottom: 75px solid black;
+  border-bottom: 75px solid white;
   transform: skewX(40deg); 
+  animation: dir 6s linear infinite;
+}
+
+@keyframes dir {
+  0% {
+    border-bottom: 75px solid rgb(88, 84, 84, 0.966);
+  }
+
+  30% {
+    border-bottom: 75px solid rgba(177, 174, 174, 0.966);
+  }
+
+  100% {
+    border-bottom: 75px solid white;
+  }
+}
+
+@keyframes esq {
+  50% {
+    border-bottom: 75px solid white;
+  }
+
+  80% {
+    border-bottom: 75px solid rgba(148, 146, 146, 0.966);
+  }
+
+  100% {
+    border-bottom: 75px solid rgba(148, 146, 146, 0.966);
+  }
 }
 
 .sol {
