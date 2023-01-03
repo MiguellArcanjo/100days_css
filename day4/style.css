@@ -1,0 +1,73 @@
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+        box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+        overflow: hidden;
+    background: #E56262;
+    color: #333;
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+  
+
+.bola1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50px;
+    right: 150px;
+    bottom: 150px;
+    box-shadow: 5px 2px 10px 0px ;
+    animation: bola1 3s;
+}
+
+.bola2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50px;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 5px 2px 10px;
+    animation: bola2 3s;
+}
+
+.bola3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    box-shadow: 5px 2px 10px;
+    animation: bola3 3s ;
+}
+
+@keyframes bola1 {
+
+
+}
+
+
+@keyframes bola2 {
+
+
+
+}
+
+@keyframes bola3 {
+
+
+}
