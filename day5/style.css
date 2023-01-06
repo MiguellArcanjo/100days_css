@@ -9,9 +9,28 @@
     border-radius: 2px;
       box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
       overflow: hidden;
-    background: #fff;
+    background: #42A7A1;
     color: #333;
       font-family: 'Open Sans', Helvetica, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+}
+
+
+.topo {
+  bottom: 240px;
+  width: 280px;
+  height: 60px;
+  background: #F1BA64;
+  position: absolute;
+  right: 65px;
+}
+
+.corpo {
+  width: 280px;
+  background: white;
+  height: 170px;
+  position: absolute;
+  bottom: 70px;
+  right: 65px;
 }
