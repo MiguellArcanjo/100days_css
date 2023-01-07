@@ -51,7 +51,7 @@
 .date {
   color: white;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 510;
   position: absolute;
   bottom: 0px;
   right: 183px;
@@ -75,8 +75,8 @@
 
 .linha-red {
   background: rgb(228, 127, 127);
-  height: 4px;
-  width: 15px;
+  height: 3px;
+  width: 13px;
   border-radius: 10px;
   position: absolute;
   right: 120px;
@@ -85,10 +85,30 @@
 
 .views {
   font-size: 10px;
-  font-weight: 500;
+  font-weight: 510;
   position: absolute;
-  right: 90px;
+  right: 85px;
   bottom: 117px;
   line-height: 13px;
   color: #606060;
+}
+
+.linha-blue {
+  background: rgb(5, 162, 235);
+  height: 3px;
+  width: 13px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 130px;
+  right: 60px;
+}
+
+.compras {
+  font-size: 10px;
+  font-weight: 510;
+  position: absolute;
+  line-height: 13px;
+  color: #606060;
+  bottom: 117px;
+  right: 10px;
 }
