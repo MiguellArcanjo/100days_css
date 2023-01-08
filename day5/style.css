@@ -147,6 +147,7 @@
   background: #7BA2FF;
   position: absolute;
   cursor: pointer;
+  z-index: 1;
 }
 
 .reta-azul, .reta-azul1, .reta-azul2, .reta-azul3, .reta-azul4, .reta-azul5{
@@ -265,4 +266,99 @@
 
 .sun {
   right: 10px;
+}
+
+.bola-vermelha, .bola-vermelha1, .bola-vermelha2, .bola-vermelha3, .bola-vermelha4, .bola-vermelha5, .bola-vermelha6 {
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  background: rgb(228, 127, 127);
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.bola-vermelha {
+  bottom: 60px;
+  left: 20px;
+}
+
+.bola-vermelha1 {
+  bottom: 100px;
+  left: 55px;
+}
+
+.bola-vermelha2 {
+  bottom: 90px;
+  left: 97px;
+}
+
+.bola-vermelha3 {
+  bottom: 103px;
+  left: 135px;
+}
+
+.bola-vermelha4 {
+  bottom: 70px;
+  left: 180px;
+}
+
+.bola-vermelha5 {
+  bottom: 58px;
+  left: 218px;
+}
+
+.bola-vermelha6 {
+  bottom: 90px;
+  left: 255px;
+}
+
+.reta-vermelha, .reta-vermelha1, .reta-vermelha2, .reta-vermelha3, .reta-vermelha4, .reta-vermelha5{
+  height: 2px;
+  width: 30px;
+  border-radius: 50px;
+  background: rgb(228, 127, 127);
+  position: absolute;
+}
+
+.reta-vermelha {
+  left: 12px; 
+  bottom: 80px;
+  width: 55px;
+  transform: rotate(-49deg);
+}
+
+.reta-vermelha1 {
+  left: 58px;
+  bottom: 98px;
+  width: 41px;
+  transform: rotate(14deg);
+}
+
+.reta-vermelha2 {
+  left: 100px;
+  bottom: 99px;
+  width: 40px;
+  transform: rotate(-20deg);
+}
+
+.reta-vermelha3 {
+  left: 132px;
+  width: 55px;
+  bottom: 89px;
+  transform: rotate(37deg);
+}
+
+.reta-vermelha4 {
+  left: 180px;
+  width: 40px;
+  bottom: 66px;
+  transform: rotate(18deg);
+}
+
+.reta-vermelha5 {
+  left: 213px;
+  bottom: 75px;
+  width: 50px;
+  transform: rotate(-41deg);
 }
