@@ -149,7 +149,7 @@
   cursor: pointer;
 }
 
-.reta-azul, .reta-azul1, .reta-azul2, .reta-azul3, .reta-azul4, .reta-azul5, .reta-azul6 {
+.reta-azul, .reta-azul1, .reta-azul2, .reta-azul3, .reta-azul4, .reta-azul5{
   height: 2px;
   width: 40px;
   border-radius: 50px;
@@ -162,6 +162,38 @@
   left: 20px;
   width: 37px;
   transform: rotate(-16deg);
+}
+
+.reta-azul1  {
+  bottom: 52px;
+  left: 56px;
+  width: 47px;
+  transform: rotate(26deg);
+}
+
+.reta-azul2 {
+  bottom: 50px;
+  left: 100px;
+  transform: rotate(-23deg);
+}
+
+.reta-azul3 {
+  bottom: 52px;
+  left: 140px;
+  width: 46px;
+  transform: rotate(12deg);
+}
+
+.reta-azul4 {
+  bottom: 42px;
+  left: 180px;
+  transform: rotate(18deg);
+}
+
+.reta-azul5 {
+  bottom: 42px;
+  left: 220px;
+  transform: rotate(-22deg);
 }
 
 .bola-azul {
