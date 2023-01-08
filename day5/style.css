@@ -80,7 +80,7 @@
   border-radius: 10px;
   position: absolute;
   right: 120px;
-  bottom: 130px;
+  bottom: 140px;
 }
 
 .views {
@@ -88,18 +88,18 @@
   font-weight: 510;
   position: absolute;
   right: 85px;
-  bottom: 117px;
+  bottom: 127px;
   line-height: 13px;
   color: #606060;
 }
 
 .linha-blue {
-  background: rgb(5, 162, 235);
+  background: #7BA2FF;
   height: 3px;
   width: 13px;
   border-radius: 10px;
   position: absolute;
-  bottom: 130px;
+  bottom: 140px;
   right: 60px;
 }
 
@@ -109,6 +109,128 @@
   position: absolute;
   line-height: 13px;
   color: #606060;
-  bottom: 117px;
+  bottom: 127px;
+  right: 10px;
+}
+
+.linha1 {
+  height: 1px;
+  width: 240px;
+  background: #F2F2F2;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.linha2 {
+  height: 1px;
+  width: 240px;
+  background: #F2F2F2;
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+}
+
+.linha3 {
+  height: 1px;
+  width: 240px;
+  background: #F2F2F2;
+  position: absolute;
+  bottom: 110px;
+  right: 20px;
+}
+
+.bola-azul, .bola-azul1, .bola-azul2, .bola-azul3, .bola-azul4, .bola-azul5, .bola-azul6 {
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  background: #7BA2FF;
+  position: absolute;
+  cursor: pointer;
+}
+
+.reta-azul, .reta-azul1, .reta-azul2, .reta-azul3, .reta-azul4, .reta-azul5, .reta-azul6 {
+  height: 2px;
+  width: 40px;
+  border-radius: 50px;
+  background: #7BA2FF;
+  position: absolute;
+}
+
+.reta-azul {
+  bottom: 56px;
+  left: 20px;
+  width: 37px;
+  transform: rotate(-16deg);
+}
+
+.bola-azul {
+  bottom: 50px;
+  left: 20px;
+}
+
+.bola-azul1 {
+  bottom: 60px;
+  left: 55px;
+}
+
+.bola-azul2 {
+  bottom: 40px;
+  left: 97px;
+}
+
+.bola-azul3 {
+  bottom: 55px;
+  left: 135px;
+}
+
+.bola-azul4 {
+  bottom: 45px;
+  left: 180px;
+}
+
+.bola-azul5 {
+  bottom: 33px;
+  left: 218px;
+}
+
+.bola-azul6 {
+  bottom: 48px;
+  left: 255px;
+}
+
+.mon, .tue, .wed, .thu, .fri, .sat, .sun {
+  color: #606060;
+  font-size: 9px;
+  position: absolute;
+  font-weight: 530;
+  bottom: 0px;
+}
+
+.mon {
+  right: 245px;
+}
+
+.tue {
+  right: 210px;
+}
+
+.wed {
+  right: 170px;
+}
+
+.thu {
+  right: 130px;
+}
+
+.fri {
+  right: 90px;
+}
+
+.sat {
+  right: 50px;
+}
+
+.sun {
   right: 10px;
 }
