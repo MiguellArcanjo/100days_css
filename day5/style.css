@@ -276,6 +276,7 @@
   background: rgb(228, 127, 127);
   position: absolute;
   cursor: pointer;
+  z-index: 1;
 }
 
 .bola-vermelha {
@@ -383,9 +384,10 @@
   text-align: center;
   display: block;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
   visibility: hidden;
-  z-index: 1;
+  z-index: 8;
+  
 }
 
 .span-azul1::before {
@@ -396,12 +398,14 @@
   left: 5px;
   border-color: #7BA2FF #7BA2FF #7BA2FF #7BA2FF ;
   transform: rotate(45deg);
+  z-index: 8;
 }
 
 .bola-azul:hover .span-azul1{
   opacity: 1;
   visibility: visible;
   transform: translateY(-12px);
+  z-index: 8;
 }
 
 .span-azul2 {
@@ -418,7 +422,7 @@
   text-align: center;
   display: block;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
   visibility: hidden;
   z-index: 1;
 }
@@ -453,7 +457,7 @@
   text-align: center;
   display: block;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
   visibility: hidden;
   z-index: 1;
 }
@@ -487,7 +491,7 @@
   text-align: center;
   display: block;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
   visibility: hidden;
   z-index: 1;
 }
@@ -522,7 +526,7 @@
   text-align: center;
   display: block;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
   visibility: hidden;
   z-index: 1;
 }
@@ -557,7 +561,7 @@
   text-align: center;
   display: block;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
   visibility: hidden;
   z-index: 1;
 }
@@ -592,7 +596,7 @@
   text-align: center;
   display: block;
   opacity: 0;
-  transition: .5s;
+  transition: .2s;
   visibility: hidden;
   z-index: 1;
 }
@@ -613,3 +617,253 @@
   transform: translateY(-12px);
 }
 
+.vi7, .vi8, .vi9, .vi10, .vi11, .vi12, .vi13 {
+  position: absolute;
+  bottom: 7px;
+  left: 4.5px;
+}
+
+.span-vermelha1 {
+  background: rgb(228, 127, 127);
+  color: white;
+  font-weight: 520;
+  height: 25px;
+  width: 26px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 3px;
+  left: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.span-vermelha1::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border: 5px solid;
+  left: 8px;
+  border-color: rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) ;
+  transform: rotate(45deg);
+}
+
+.bola-vermelha:hover .span-vermelha1{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-12px);
+}
+
+.span-vermelha2 {
+  background: rgb(228, 127, 127);
+  color: white;
+  font-weight: 520;
+  height: 25px;
+  width: 26px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 3px;
+  left: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.span-vermelha2::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border: 5px solid;
+  left: 8px;
+  border-color: rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) ;
+  transform: rotate(45deg);
+}
+
+.bola-vermelha1:hover .span-vermelha2{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-12px);
+}
+
+.span-vermelha3 {
+  background: rgb(228, 127, 127);
+  color: white;
+  font-weight: 520;
+  height: 25px;
+  width: 26px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 3px;
+  left: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.span-vermelha3::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border: 5px solid;
+  left: 8px;
+  border-color: rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) ;
+  transform: rotate(45deg);
+}
+
+.bola-vermelha2:hover .span-vermelha3{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-12px);
+}
+
+.span-vermelha4 {
+  background: rgb(228, 127, 127);
+  color: white;
+  font-weight: 520;
+  height: 25px;
+  width: 26px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 3px;
+  left: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.span-vermelha4::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border: 5px solid;
+  left: 8px;
+  border-color: rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) ;
+  transform: rotate(45deg);
+}
+
+.bola-vermelha3:hover .span-vermelha4{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-12px);
+}
+
+.span-vermelha5 {
+  background: rgb(228, 127, 127);
+  color: white;
+  font-weight: 520;
+  height: 25px;
+  width: 26px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 3px;
+  left: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.span-vermelha5::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border: 5px solid;
+  left: 8px;
+  border-color: rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) ;
+  transform: rotate(45deg);
+}
+
+.bola-vermelha4:hover .span-vermelha5{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-12px);
+}
+
+.span-vermelha6 {
+  background: rgb(228, 127, 127);
+  color: white;
+  font-weight: 520;
+  height: 25px;
+  width: 26px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 3px;
+  left: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.span-vermelha6::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border: 5px solid;
+  left: 8px;
+  border-color: rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) ;
+  transform: rotate(45deg);
+}
+
+.bola-vermelha5:hover .span-vermelha6{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-12px);
+}
+
+.span-vermelha7 {
+  background: rgb(228, 127, 127);
+  color: white;
+  font-weight: 520;
+  height: 25px;
+  width: 26px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 3px;
+  left: -10px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  opacity: 0;
+  transition: .2s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.span-vermelha7::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  border: 5px solid;
+  left: 8px;
+  border-color: rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) rgb(228, 127, 127) ;
+  transform: rotate(45deg);
+}
+
+.bola-vermelha6:hover .span-vermelha7{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-12px);
+}
