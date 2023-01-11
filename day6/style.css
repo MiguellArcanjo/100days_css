@@ -8,29 +8,196 @@
     height: 400px;
     margin-top: -200px;
     margin-left: -200px;
-    border-radius: 2px;
+    border-radius: 8px;
       box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
       overflow: hidden;
     background: linear-gradient(to top right, #EEBE6C 0%, #CA7C4E);
     color: #333;
-      font-family: 'Open Sans', Helvetica, sans-serif;
+      font-family: 'Open Sans', sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
   }
 
 .fundo {
-    height: 320px;
-    width: 320px;
-    background: white;
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
+  height: 320px;
+  width: 320px;
+  background: white;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  border-radius: 5px;
+}
+
+.circulo1 {
+  border-color: #786450 transparent #786450 #786450;
+  width: 82px;
+  height: 82px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
 }
 
 .image {
-    height: 90px;
-    border-radius: 60px;
-    position: absolute;
-    left: 65px;
-    bottom: 180px;
+  height: 80px;
+  border-radius: 60px;
+  position: absolute;
+  left: 70px;
+  bottom: 190px;
+}
+
+.name {
+  position: absolute;
+  font-weight: 600;
+  font-size: 17px;
+  color: #786450;
+  bottom: 130px;
+  left: 55px;
+}
+
+.art {
+  position: absolute;
+  color: #786450;
+  font-weight: 500;
+  bottom: 115px;
+  font-size: 13px;
+  left: 77px;
+}
+
+.follow {
+  position: absolute;
+  bottom: 70px;
+  border-color: #786450;
+  background: white;
+  color: #786450;
+  border-radius: 20px;
+  height: 30px;
+  width: 120px;
+  border: 1px solid #786450;
+  font-size: 14px;
+  font-weight: 600;
+  left: 50px;
+  transition: .3s ease-in-out;
+}
+
+.message {
+  position: absolute;
+  bottom: 30px;
+  border-color: #786450;
+  background: white;
+  color: #786450;
+  border-radius: 20px;
+  height: 30px;
+  width: 120px;
+  border: 1px solid #786450;
+  font-size: 14px;
+  font-weight: 600;
+  left: 50px;
+  transition: .3s ease-in-out;
+}
+
+.follow:hover {
+  color: white;
+  background: #786450;
+} 
+
+.message:hover {
+  color: white;
+  background: #786450;
+}
+
+.post {
+  height: 106px;
+  width: 120px;
+  background: #F5E8DF;
+  position: absolute;
+  left: 200px;
+  transition: .3s ease-in-out;
+  border-top-right-radius: 5px;
+}
+
+.likes {
+  height: 106px;
+  width: 120px;
+  background: #F5E8DF;
+  position: absolute;
+  left: 200px;
+  bottom: 107px;
+  transition: .3s ease-in-out;
+}
+
+.follower {
+  height: 106px;
+  width: 120px;
+  background: #F5E8DF;
+  position: absolute;
+  left: 200px;
+  bottom: 0.5px;
+  transition: .3s ease-in-out;
+  border-bottom-right-radius: 5px;
+}
+
+.post1 {
+  position: absolute;
+  color: #786450;
+  font-weight: 600;
+  left: 45px;
+  font-size: 18px;
+  bottom: 30px;
+}
+
+.post2 {
+  position: absolute;
+  color: #786450;
+  font-weight: 500;
+  left: 47px;
+  font-size: 10px;
+  bottom: 28px;
+}
+
+.likes1{
+  position: absolute;
+  color: #786450;
+  font-weight: 600;
+  font-size: 18px;
+  bottom: 30px;
+  left: 38px;
+}
+
+.likes2 {
+  position: absolute;
+  color: #786450;
+  font-weight: 500;
+  font-size: 10px;
+  bottom: 28px;
+  left: 47px;
+}
+
+.follower1 {
+  position: absolute;
+  color: #786450;
+  font-weight: 600;
+  left: 45px;
+  font-size: 18px;
+  bottom: 30px;
+}
+
+.follower2 {
+  position: absolute;
+  color: #786450;
+  font-weight: 500;
+  font-size: 10px;
+  bottom: 28px;
+  left: 43px;
+}
+
+.post:hover {
+  background: #f5dac7;
+}
+
+.likes:hover {
+  background: #f5dac7;
+}
+
+.follower:hover {
+  background: #f5dac7;
 }
