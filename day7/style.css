@@ -105,7 +105,6 @@
     transition: .2s ease-in-out;
 }
 
-
 .bola {
     height: 7px;
     width: 7px;
@@ -138,4 +137,88 @@
 
 .menu:hover .barra2{
     background: #fff;
+}
+
+.linha1 {
+    background: #EBEBEB;
+    height: 3px;
+    width: 24px;
+    position: absolute;
+    bottom: 226px;
+    left: 18px;
+    transform: rotate(90deg);
+}
+
+.bola1 {
+    position: absolute;
+    bottom: 201px;
+    left: 24.6px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5F98CD #5F98CD #5F98CD #5F98CD;
+    cursor: pointer;
+}
+
+.linha2 {
+    background: #EBEBEB;
+    height: 3px;
+    width: 60px;
+    position: absolute;
+    bottom: 167px;
+    left: 0px;
+    transform: rotate(90deg);
+}
+
+.bola2 {
+    position: absolute;
+    bottom: 125px;
+    left: 24.6px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5F98CD #5F98CD #5F98CD #5F98CD;
+    cursor: pointer;
+}
+
+.linha3 {
+    background: #EBEBEB;
+    height: 3px;
+    width: 60px;
+    position: absolute;
+    bottom: 91px;
+    left: 0px;
+    transform: rotate(90deg);
+}
+
+.bola3 {
+    position: absolute;
+    bottom: 49px;
+    left: 24.6px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #5F98CD #5F98CD #5F98CD #5F98CD;
+    cursor: pointer;
+}
+
+.linha4 {
+    background: #EBEBEB;
+    height: 3px;
+    width: 45px;
+    position: absolute;
+    bottom: 22px;
+    left: 7px;
+    transform: rotate(90deg);
+}
+
+.hora {
+    position: absolute;
+    left: 20px;
 }
