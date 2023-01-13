@@ -220,5 +220,12 @@
 
 .hora {
     position: absolute;
-    left: 20px;
+    bottom: -5px;
+    left: 15px;
+    font-size: 12px;
+    display: inline;   
+    color: #666666;
+    font-weight: 500;
+    float: left;
+    white-space: nowrap;
 }
