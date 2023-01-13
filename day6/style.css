@@ -30,12 +30,39 @@
 
 .circulo1 {
   border-color: #786450 transparent #786450 #786450;
-  width: 82px;
-  height: 82px;
+  width: 85px;
+  height: 85px;
   border-width: 1px;
   border-style: solid;
   border-radius: 50%;
+  bottom: 187px;
+  position: absolute;
+  left: 66px;
+  transform: rotate(180deg);
+  transition: 2s ease-in-out;
 }
+
+.circulo2 {
+  border-color: #786450 transparent #786450 #786450;
+  width: 92px;
+  height: 92px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  bottom: 183.68px;
+  position: absolute;
+  left: 62px;
+  transition: 2s ease-in-out;
+}
+
+.movimento:hover .circulo1{
+  transform: rotate(540deg);
+}
+
+.movimento:hover .circulo2{
+  transform: rotate(360deg);
+}
+
 
 .image {
   height: 80px;
@@ -113,7 +140,7 @@
   left: 200px;
   transition: .3s ease-in-out;
   border-top-right-radius: 5px;
-  bottom: 214px;
+  bottom: 213.6px;
 }
 
 .likes {
@@ -132,7 +159,7 @@
   background: #F5E8DF;
   position: absolute;
   left: 200px;
-  bottom: 0.5px;
+  bottom: 0.2px;
   transition: .3s ease-in-out;
   border-bottom-right-radius: 5px;
 }
