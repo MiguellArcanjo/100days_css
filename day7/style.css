@@ -141,13 +141,15 @@
 
 .linha1 {
     background: #EBEBEB;
-    height: 3px;
-    width: 24px;
+    height: 24px;
+    width: 4px;
     position: absolute;
-    bottom: 226px;
-    left: 18px;
-    transform: rotate(90deg);
+    bottom: 216px;
+    left: 27px;
+    animation: iniciar1 0.5s ease-out 0.4s;
+    animation-fill-mode: both;
 }
+
 
 .bola1 {
     position: absolute;
@@ -160,16 +162,20 @@
     border-style: solid;
     border-color: #5F98CD #5F98CD #5F98CD #5F98CD;
     cursor: pointer;
+    animation: iniciar1 0.5s ease-out 0.4s;
+    animation-fill-mode: both;
+    
 }
 
 .linha2 {
     background: #EBEBEB;
-    height: 3px;
-    width: 60px;
+    height: 60px;
+    width: 4px;
     position: absolute;
-    bottom: 167px;
-    left: 0px;
-    transform: rotate(90deg);
+    bottom: 138px;
+    left: 27px;
+    animation: iniciar1 0.5s ease-out 0.4s;
+    animation-fill-mode: both;
 }
 
 .bola2 {
@@ -183,16 +189,19 @@
     border-style: solid;
     border-color: #5F98CD #5F98CD #5F98CD #5F98CD;
     cursor: pointer;
+    animation: iniciar1 0.5s ease-out 0.6s;
+    animation-fill-mode: both;
 }
 
 .linha3 {
     background: #EBEBEB;
-    height: 3px;
-    width: 60px;
+    height: 60px;
+    width: 4px;
     position: absolute;
-    bottom: 91px;
-    left: 0px;
-    transform: rotate(90deg);
+    bottom: 62px;
+    left: 27px;
+    animation: iniciar1 0.5s ease-out 0.6s;
+    animation-fill-mode: both;
 }
 
 .bola3 {
@@ -206,19 +215,86 @@
     border-style: solid;
     border-color: #5F98CD #5F98CD #5F98CD #5F98CD;
     cursor: pointer;
+    animation: iniciar1 0.5s ease-out 0.8s;
+    animation-fill-mode: both;
 }
 
 .linha4 {
     background: #EBEBEB;
-    height: 3px;
-    width: 45px;
+    height: 45px;
+    width: 4px;
     position: absolute;
-    bottom: 22px;
-    left: 7px;
-    transform: rotate(90deg);
+    bottom: 0px;
+    left: 27px;
+    animation: iniciar1 0.5s ease-out 0.8s;
+    animation-fill-mode: both;
 }
 
 .hora {
+    position: absolute;
+    bottom: 200px;
+    left: 42px;
+    font-size: 12px;
+    display: inline;   
+    color: #666666;
+    font-weight: 500;
+    float: left;
+    white-space: nowrap;
+    animation: iniciar1 0.5s ease-out 0.4s;
+    animation-fill-mode: both;
+}
+
+.texto {
+    font-size: 15px;
+    position: absolute;
+    color: #666666;
+    bottom: 157px;
+    left: 42px;
+    cursor: pointer;
+    animation: iniciar1 0.5s ease-out 0.4s;
+    animation-fill-mode: both;
+}
+
+.h:hover .hora {
+    color: #5F98CD;
+}
+
+.h:hover .texto {
+    color: #5F98CD;
+}
+
+.hora1 {
+    position: absolute;
+    bottom: -5px;
+    left: 18px;
+    font-size: 12px;
+    display: inline;   
+    color: #666666;
+    font-weight: 500;
+    float: left;
+    white-space: nowrap;
+}
+
+.texto2 {
+    font-size: 15px;
+    position: absolute;
+    color: #666666;
+    bottom: 80px;
+    left: 43px;
+    cursor: pointer;
+    animation: iniciar1 0.5s ease-out 0.6s;
+    animation-fill-mode: both;
+}
+
+.h2:hover .hora1 {
+    color: #5F98CD;
+}
+
+.h2:hover .texto2 {
+    color: #5F98CD;
+}
+
+.hora2 {
     position: absolute;
     bottom: -5px;
     left: 15px;
@@ -230,9 +306,42 @@
     white-space: nowrap;
 }
 
-.texto {
-    font-size: 13px;
+.texto3 {
+    font-size: 14px;
     position: absolute;
-    display: inline-block;
-    white-space: nowrap;
+    color: #666666;
+    bottom: 26px;
+    left: 42px;
+    cursor: pointer;
+    animation: iniciar1 0.5s ease-out 0.8s;
+    animation-fill-mode: both;
+}
+
+.h3:hover .hora2 {
+    color: #5F98CD;
+}
+
+.h3:hover .texto3 {
+    color: #5F98CD;
+}
+
+@keyframes iniciar1 {
+    0% {
+		transform: translate3d(0, 30px, 0);
+		opacity: 0;
+	}
+	100% {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}
+
+.barra-de-pesquisa {
+    background: #fff;
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    border-radius: 100px;
+    bottom: 16px;
+    left: 65px;
 }
