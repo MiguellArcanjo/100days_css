@@ -27,6 +27,19 @@
     left: 57px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    transition: .5s ease-in-out;
+}
+
+.BB2 {
+    background: #5F98CD;
+    height: 60px;
+    width: 280px;
+    position: absolute;
+    bottom: 290px;
+    left: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: .5s ease-in-out;
 }
 
 .fundo-branco {
@@ -38,6 +51,19 @@
     left: 57px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: .5s ease-in-out;
+}
+
+.fundo-branco2 {
+    background: #fff;
+    width: 280px;
+    height: 240px;
+    position: absolute;
+    bottom: 50px;
+    left: 210px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .5s ease-in-out;
 }
 
 .notificacao {
@@ -339,9 +365,252 @@
 .barra-de-pesquisa {
     background: #fff;
     height: 30px;
+    width: 214px;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 15px;
+    left: 28px;
+    border: none;
+    z-index: 9;
+    outline: 0;
+    opacity: 1;
+    transform: translate(-13px);
+    transition: .5s ease-in-out;
+    color: #666666;
+}
+
+
+.hiden {
+    background: #fff;
+    height: 30px;
+    width: 214px;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 15px;
+    left: 28px;
+    border: none;
+    z-index: 9;
+    outline: 0;
+    opacity: 0;
+    transform: translate(13px);
+    transition: .5s ease-in-out;
+    color: #666666;
+    visibility: hidden;
+}
+
+.menu2 {
+    background: #43627D;
+    height: 265px;
     width: 150px;
     position: absolute;
-    border-radius: 100px;
+    left: 70px;
+    bottom: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transform: translateX(-10px);
+    transition: .5s ease-in-out;
+}
+
+.menu3 {
+    background: #43627D;
+    height: 265px;
+    width: 150px;
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transform: translateX(10px);
+    transition: .5s ease-in-out;
+
+}
+
+.configurar {
+    bottom: 10px;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background: #43627D;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.configurar:hover {
+    background: #31475a;
+}
+
+.configurar:hover .settings{
+    color: #fff;
+}
+
+.configurar:hover .fa-gear {
+    color: #fff;
+}
+
+.fa-gear {
+    transition: .3s ease-in-out;
+}
+
+.settings {
+    color: #93B2CD;
+    font-size: 14px;
     bottom: 16px;
-    left: 65px;
+    left: 38px;
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.fa {
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+    color: #93B2CD;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.dash {
+    bottom: 205px;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background: #43627D;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.fa-solid {
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+    color: #93B2CD;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.dashboard {
+    color: #93B2CD;
+    font-size: 14px;
+    bottom: 16px;
+    left: 38px;
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.dash:hover {
+    background: #31475a;
+}
+
+.dash:hover .fa-solid {
+    color: #fff;
+}
+
+.dash:hover .dashboard {
+    color: #fff;
+}
+
+.perfil {
+    bottom: 155px;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background: #43627D;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.profile {
+    color: #93B2CD;
+    font-size: 14px;
+    bottom: 16px;
+    left: 38px;
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.perfil:hover {
+    background: #31475a;
+}
+
+.perfil:hover .fa-solid {
+    color: #fff;
+}
+
+.perfil:hover .profile {
+    color: #fff;
+}
+
+.notificacao1 {
+    bottom: 105px;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background: #43627D;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.notifications {
+    color: #93B2CD;
+    font-size: 14px;
+    bottom: 16px;
+    left: 38px;
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.notificacao1:hover {
+    background: #31475a;
+}
+
+.notificacao1:hover .fa-solid {
+    color: #fff;
+}
+
+.notificacao1:hover .notifications {
+    color: #fff;
+}
+
+.mensagem {
+    bottom: 55px;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background: #43627D;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.messages {
+    color: #93B2CD;
+    font-size: 14px;
+    bottom: 16px;
+    left: 38px;
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.fa-comments {
+    position: absolute;
+    left: 17px;
+    bottom: 20px;
+    transition: .3s ease-in-out;
+}
+
+.mensagem:hover {
+    background: #31475a;
+}
+
+.mensagem:hover .fa-comments {
+    color: #fff;
+}
+
+.mensagem:hover .messages {
+    color: #fff;
 }
