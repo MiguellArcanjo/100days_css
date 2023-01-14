@@ -229,3 +229,10 @@
     float: left;
     white-space: nowrap;
 }
+
+.texto {
+    font-size: 13px;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+}
