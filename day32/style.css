@@ -8,13 +8,106 @@
     height: 400px;
     margin-top: -200px;
     margin-left: -200px;
-    border-radius: 2px;
+    border-radius: 5px;
       box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
       overflow: hidden;
-    background: #fff;
+    background: linear-gradient(to top right, #D2592A 0%, #FDB03A 100%);
     color: #333;
       font-family: 'Open Sans', Helvetica, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
 }
   
+
+.meio {
+  background: #fff;
+  height: 40px;
+  width: 130px;
+  position: absolute;
+  bottom: 190px;
+  left: 130px;
+  border-radius: 20px;
+}
+
+.mais {
+  border-radius: 20px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  bottom: 5px;
+  left: 95px;
+  background: #fff;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.traco1 {
+  position: absolute;
+  bottom: 6px;
+  left: 15px;
+  height: 18px;
+  width: 2.5px;
+  background: #8ED273;
+  transition: .3s ease-in-out;
+}
+
+.traco2 {
+  position: absolute;
+  bottom: 14px;
+  left: 7px;
+  height: 2.5px;
+  width: 18px;
+  background: #8ED273;
+  transition: .3s ease-in-out;
+}
+
+.mais:hover {
+  background: #8ED273;
+}
+
+.mais:hover .traco1 {
+  background: #fff;
+}
+
+.mais:hover .traco2 {
+  background: #fff;
+}
+
+.menos {
+  border-radius: 20px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  bottom: 5px;
+  left: 5px;
+  background: #fff;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+.menos1 {
+  background: #E26E6E;
+  height: 2.5px;
+  width: 18px;
+  position: absolute;
+  bottom: 13px;
+  left: 6px;
+  transition: .3s ease-in-out;
+}
+
+.menos:hover {
+  background: #E26E6E;
+}
+
+.menos:hover .menos1 {
+  background: #fff;
+}
+
+.numero {
+  position: absolute;
+  font-weight: 600;
+  color: #6A85A0;
+  font-size: 24px;
+  bottom: -20px;
+  left: 57px;
+}
