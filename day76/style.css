@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #34495E;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.senha {
+  position: absolute;
+  border: none;
+  bottom: 185px;
+  left: 103px;
+  outline: 0;
+  text-align: center;
+  color: #34495E;
+  height: 40px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+.senha:valid {
+  opacity: 0;
+  transform: scale(0);
+}
+.senha:valid + .senhaSecreta {
+  height: 42px;
+  background: #fff;
+  position: absolute;
+  bottom: 185px;
+  left: 103px;
+  width: 180.5px;
+  transform: translatey(-40px);
+  transition: 0.5s ease-in-out;
+}
+.senha:valid + .senhaSecreta + .codigoSecreto {
+  height: 42px;
+  width: 180.5px;
+  position: absolute;
+  background: #64C760;
+  bottom: 185px;
+  left: 103px;
+  visibility: visible;
+  color: #fff;
+}
+
+.codigo {
+  font-size: 14px;
+  color: #34495E;
+  font-weight: 600;
+  position: absolute;
+  bottom: -1px;
+  left: 55px;
+}
+
+.codigo2 {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  bottom: -1px;
+  left: 55px;
+  color: #34495E;
+}/*# sourceMappingURL=style.css.map */
