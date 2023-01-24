@@ -29,7 +29,7 @@
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
 .senha:valid {
-  opacity: 0;
+  opacity: 1;
   transform: scale(0);
 }
 .senha:valid + .senhaSecreta {
@@ -41,6 +41,8 @@
   width: 180.5px;
   transform: translatey(-40px);
   transition: 0.5s ease-in-out;
+  opacity: 1;
+  z-index: 9;
 }
 .senha:valid + .senhaSecreta + .codigoSecreto {
   height: 42px;
@@ -51,6 +53,7 @@
   left: 103px;
   visibility: visible;
   color: #fff;
+  z-index: 5;
 }
 
 .codigo {
@@ -63,10 +66,18 @@
 }
 
 .codigo2 {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 15px;
   position: absolute;
-  bottom: -1px;
-  left: 55px;
-  color: #34495E;
+  bottom: 10px;
+  left: 44px;
+  color: #fff;
+}
+
+.tapete {
+  height: 40px;
+  width: 100%;
+  background: #34495E;
+  position: absolute;
+  bottom: 0px;
+  z-index: 9;
 }/*# sourceMappingURL=style.css.map */
