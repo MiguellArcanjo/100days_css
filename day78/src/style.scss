@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #3498db;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hover1 {
+    background: #fff;
+    height: 4rem;
+    width: 11rem;
+    position: absolute;
+    bottom: 17rem;
+    left: 6.4rem;
+    transition: .3s ease-in-out;
+}
+
+.hover2 {
+    background: #fff;
+    height: 4rem;
+    width: 11rem;
+    position: absolute;
+    left: 6.4rem;
+    bottom: 11rem;
+    transition: .3s ease-in-out;
+}
+
+.hover3 {
+    background: #fff;
+    height: 4rem;
+    width: 11rem;
+    position: absolute;
+    left: 6.4rem;
+    bottom: 5.1rem;
+    transition: .3s ease-in-out;
+}
+.hoverme {
+    position: absolute;
+    font-weight: 600;
+    left: 2.9rem;
+    bottom: 0.4rem;
+}
+
+.hover1:hover {
+    scale: 1.1;
+    transition: .3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.hover2:hover {
+    scale: 1.1;
+    transition: .3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.hover3:hover {
+    scale: 1.1;
+    transition: .3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
